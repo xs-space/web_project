@@ -20,4 +20,5 @@ pnpm install prettier eslint-plugin-prettier eslint-config-prettier -D
 
 ```text
 pnpm install husky lint-staged -D
+pnpm install @commitlint/cli @commitlint/config-conventional -D
 ```
