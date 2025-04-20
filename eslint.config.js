@@ -33,7 +33,8 @@ export default defineConfig([
   {
     // 根据需要增加自己的规则
     rules: {
-      "no-console": "warn"
+      "no-console": "warn",
+      "vue/multi-word-component-names": "off"
     }
   },
   prettierRecommended // 覆盖掉eslint规范

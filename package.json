@@ -6,10 +6,11 @@
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix --quiet",
-    "prepare": "husky"
+    "dev": "vite"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
